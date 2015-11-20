@@ -368,6 +368,9 @@ ul {
 .div-margin {
   padding-bottom: 2em;
 }
+.div-margin h5 {
+  margin-bottom: 1%;
+}
 .gallery-grids {
   padding: 0;
 }
@@ -403,6 +406,16 @@ ul {
 .why .title1 {
   text-align: center;
   margin-top: 4%;
+}
+.why .title1:after {
+   background: url(../images/line.png) no-repeat center top;
+  display: block;
+  content: "";
+  height: 10px;
+  margin: 0.75em 0;
+}
+.why .parag {
+  text-align: center;
 }
 
 @media (max-width: 1366px) {
