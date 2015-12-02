@@ -82,7 +82,7 @@ ul {
   display: inline-block;
   margin-left: 0.750em;
 }
-.header-right ul li a {
+.header-right ul li a, .work-bottom span, .callbacks_nav, .title-img, .social li i, #toTop {
   background: url(../images/icons.png) no-repeat;
 }
 .header-right ul li a.fb, .header-right ul li a.tw {
@@ -212,7 +212,7 @@ ul {
   width: 50%;
   text-transform: uppercase;
 }
-.content-txt h1 {
+.contenth1 {
   font-family: 'Roboto-Bold';
   font-size: 3.3em;
   color: #464646;
@@ -236,7 +236,7 @@ ul {
   text-align: center;
   font-family: 'Roboto-Bold';
 }
-.work-top h3:after {
+.title:after, .slider-info-righth1:after, .gallery-gridh1:after, .title1:after {
   background: url(../images/line.png) no-repeat center top;
   display: block;
   content: "";
@@ -246,7 +246,7 @@ ul {
 .work-bottom {
   margin-top: 11%;
 }
-.work-bottom h4 {
+.work-bottom .iconic {
   color: #464646;
   font-size: 1.5em;
   margin-top: 1em;
@@ -258,28 +258,27 @@ ul {
   line-height: 1.6em;
 }
 .work-bottom span {
-  background: url(../images/icons.png) no-repeat;
   width: 68px;
   height: 68px;
   display: block;
 }
 
-.work-bottom span.house {
+.work-bottom .house {
   background-position: -41px -3px;
 }
-.work-bottom span.settings {
+.work-bottom .settings {
   background-position: -111px -3px;
 }
-.work-bottom span.money {
+.work-bottom .money {
   background-position: -181px -3px;
 }
-.work-bottom span.calendar {
+.work-bottom .calendar {
   background-position: -42px -83px;
 }
-.work-bottom span.ok {
+.work-bottom .ok {
   background-position: -112px -83px;
 }
-.work-bottom span.heart {
+.work-bottom .heart {
   background-position: -182px -83px;
 }
 .work-grid {
@@ -296,12 +295,12 @@ ul {
   float: left;
   width: 45%;
 }
-.slider-info-right h1 {
+.slider-info-righth1 {
   text-transform: capitalize;
   font-size: 2.2em;
 }
-.slider-info-right h1:after {
-  background: url(../images/line.png) no-repeat left bottom;
+.slider-info-righth1:after {
+  background-position: left bottom;
   display: block;
   content: "";
   height: 10px;
@@ -339,16 +338,17 @@ ul {
 }
 .callbacks_nav {
   position: absolute;
-  background: url(../images/icons.png) no-repeat -9px -154px;
+  background-position: -9px -154px;
   height: 48px;
   width: 48px;
-  text-indent: -99999px;
+  text-indent: -9999px;
   display: block;
   z-index: 3;
   top: 44%;
   left: -3%;
+  direction: ltr;
 }
-.callbacks_nav.next {
+.callbacks_container .next {
   background-position: -60px -154px;
   right: -2%;
   left: auto;
@@ -359,17 +359,19 @@ ul {
   padding: 5em 0 0;
 }
 /* WHY? */
-.col-md h2 {
+.col-md .whyh2 {
   font-size: 3.4em;
   width: 52.5%;
   text-transform: uppercase;
   font-family: 'Roboto-Bold';
 }
+.why-grid .whygridh5 {
+  font-size: 1.6em;
+  font-family: 'Roboto-Bold';
+  margin-bottom: 1%;
+}
 .div-margin {
   padding-bottom: 2em;
-}
-.div-margin h5 {
-  margin-bottom: 1%;
 }
 .gallery-grids {
   padding: 0;
@@ -377,18 +379,15 @@ ul {
 .gallery-grids img {
   width: 100%;
 }
-.gallery-grid {
-
-}
-.gallery-grid h1 {
+.gallery-grid .gallery-gridh1 {
   font-size: 5em;
   text-transform: uppercase;
   font-family: 'Roboto-Bold';
   width: 64%;
   margin: 1em 0 0 0.3em;
 }
-.gallery-grid h1:after {
-  background: url(../images/line.png) no-repeat left top;
+.gallery-grid .gallery-gridh1:after {
+  background-position: left top;
   display: block;
   content: "";
   height: 10px;
@@ -403,20 +402,145 @@ ul {
 .parag p {
   line-height: 1.8em;
 }
-.why .title1 {
-  text-align: center;
-  margin-top: 4%;
+.comments {
+  background: #faf9f9;
 }
-.why .title1:after {
-   background: url(../images/line.png) no-repeat center top;
+.comments .title1 {
+  text-align: center;
+  margin: 4% 0;
+}
+.comments .title1:after {
+  background-position: center top;
   display: block;
   content: "";
   height: 10px;
   margin: 0.75em 0;
 }
-.why .par {
+.comments .par {
   text-align: center;
 }
+.title-img {
+  background-position: -264px -16px;
+  height: 38px;
+  width: 38px;
+  display: inline-block;
+  position: absolute;
+  top: 1%
+}
+.work-title {
+  margin-top: 4%;
+}
+.work-title .work-titleh4 {
+  font-size: 1.5em;
+  font-family: 'Roboto-Bold';
+}
+.work-title .work-titleh4 span {
+  font-size: 1.1em;
+  font-family: 'Roboto-Light';
+  color: #b7b7b7;
+  display: block;
+  margin: 2% 0;
+}
+.work-title ul li {
+  display: inline-block;
+}
+.work-title ul li:nth-child(1) {
+  width: 12%;
+}
+.work-title ul li:nth-child(2) {
+  width: 80%;
+}
+.photo {
+  padding: 2em 0;
+}
+.footer {
+  background: #141414;
+  padding: 5em 0;
+}
+.footer .footerh1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto-Bold';
+  margin-bottom: 2em;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li a {
+  display: block;
+  padding: 0.4em 0 0;
+  font-size: 1.4em;
+  color: #474747;
+  font-family: 'Roboto-Light';
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.ftr-left ul li:nth-child(1) a {
+  text-decoration: underline;
+}
+.ftr-area {
+  padding-left: 0;
+}
+.ftr-right {
+  text-align: right;
+}
+.ftr-right p span {
+  display: block;
+}
+.social {
+  padding: 0 0 6em ;
+}
+.social li {
+  display: inline-block;
+}
+.social li i {
+  background-position: -120px -152px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+.social li i.tw {
+  background-position: -152px -152px;
+}
+.social li i.dr {
+  background-position: -192px -152px;
+}
+.social li i.g {
+  background-position: -232px -152px;
+}
+.social li i:hover {
+    background-position: -120px -178px;
+}
+.social li i.tw:hover {
+    background-position: -152px -178px;
+}
+.social li i.dr:hover {
+    background-position: -192px -178px;
+}
+.social li i.g:hover {
+    background-position: -232px -178px;
+}
+.ftr-right p {
+  font-size: 1.4em;
+}
+#toTop {
+  background-position: -264px -57px;
+  width: 39px;
+    height: 29px;
+    position: fixed;
+    right: 3%;
+    bottom: 17%;
+    border: none;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-decoration: none;
+    direction: ltr;
+}
+  
 
 @media (max-width: 1366px) {
   .header {
