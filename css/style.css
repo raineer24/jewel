@@ -559,4 +559,7 @@ header {
   .work-bottom p{
     font-size: 1em;
   }
+  .work-title ul li:nth-child(1) {
+    width: 15%;
+  }
 }
