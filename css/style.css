@@ -48,7 +48,7 @@ ul {
   color: #fff;
 
 }
-.header {
+header {
   background: url(../images/banner.jpg) no-repeat 0 0;
   background-size: cover;
 }
@@ -543,12 +543,17 @@ ul {
   
 
 @media (max-width: 1366px) {
-  .header {
+  header {
     min-height: 665px;
   }
 }
 @media (max-width: 1280px) {
-  .header {
+  header {
     min-height: 638px;
+  }
+}
+@media(max-width: 1024px) {
+  header .container  {
+    width: 100%;
   }
 }
