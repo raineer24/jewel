@@ -205,6 +205,9 @@ header {
   text-align: center;
   position: relative;
 }
+.content-right  {
+  float: right;
+}
 .content-txt {
   position: absolute;
   left: 8.5em;
