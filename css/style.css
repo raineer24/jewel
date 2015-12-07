@@ -573,7 +573,26 @@ header {
 
 }
 @media(max-width: 768px) {
-
+ span.menu:before {
+    content: url(../images/nav.png);
+    height: 25px;
+    width: 28px;
+  }
+  .res {
+    display: none;
+  }
+  .res li {
+    width: 100%;
+  }
+  .res li a {
+    display: block;
+  }
+  .menu {
+    display: block;
+  }
+  .res {
+    position: absolute;
+  }
 }
 @media(max-width: 800px) {
 

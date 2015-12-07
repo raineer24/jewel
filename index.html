@@ -25,14 +25,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<a href="#"><h1 class="logoh1">JEWELERY</h1></a>
 				</div>
 				<div class="top-menu">
-					<ul>
+					<span class="menu"></span>
+					<ul class="res">
 						<li><a href="#" class="active">Home.</a></li>
 						<li><a href="#">News.</a></li>
 						<li><a href="">Work.</a></li>
 						<li><a href="">About.</a></li>
 						<li><a href="">Contact.</a></li>
 					</ul>
-				</div>
+				</div> <!-- end top-menu -->
+				<script>
+						$("span.menu").click(function(){
+							$(" ul.res").slideToggle("slow" , function(){
+							});
+						});
+		 		</script>
 				<div class="header-right">
 					<ul class="f icons">
 						<li><a href="#" class="fb"></a></li>
