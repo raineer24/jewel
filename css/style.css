@@ -573,6 +573,9 @@ header {
 
 }
 @media(max-width: 768px) {
+ .top-menu {
+  float: right;
+ }
  span.menu:before {
     content: url(../images/nav.png);
     height: 25px;
@@ -592,6 +595,10 @@ header {
   }
   .res {
     position: absolute;
+    right: -40%;
+  }
+  .header-right {
+    display: none;
   }
 }
 @media(max-width: 800px) {
