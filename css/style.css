@@ -104,6 +104,7 @@ header {
 .banner-info {
   margin-top: 12em;
   width: 47%;
+  position: absolute;
 }
 .banner-info .banner-h1 {
   color: #fff;
@@ -568,6 +569,15 @@ header {
 }
 @media(max-width:991px) {
 
+}
+@media(max-width:800px) {
+  header {
+    min-height: 411px;
+  }
+  .banner-info {
+    top: -6%;
+    left: 5%;
+  }
 }
 @media(max-width: 768px) {
  .top-menu {
