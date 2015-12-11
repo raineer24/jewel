@@ -580,11 +580,23 @@ header {
   }
 }
 @media(max-width: 800px) {
+  .logo {
+    margin-left: 1em;
+  }
   .top-menu {
     margin-left: 10em;
   }
+  .btn-left {
+    width: 40%;
+  }
+  .btn-right {
+    width: 50%;
+  }
 }
 @media(max-width: 768px) {
+  .logo {
+    margin-left: 1em;
+  }
  .top-menu {
   float: right;
  }
