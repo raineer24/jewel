@@ -211,9 +211,8 @@ header {
   float: right;
 }
 .content-txt {
-  position: absolute;
-  left: 8.5em;
-  top: 22em;
+  text-align: left;
+  margin-top: 11em;
   width: 50%;
   text-transform: uppercase;
 }
