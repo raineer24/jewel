@@ -576,9 +576,22 @@ header {
   header {
     min-height: 411px;
   }
+  .logo {
+    margin-left: 1em;
+  }
+  .top-menu {
+    margin-left: 10em;
+  }
+  
   .banner-info {
     top: -6%;
     left: 5%;
+  }
+  .btn-left {
+    width: 40%;
+  }
+  .btn-right {
+    width: 50%;
   }
   .content-txt {
     text-align: center;
@@ -586,20 +599,6 @@ header {
   }
   .work-grid {
     text-align: center;
-  }
-}
-@media(max-width: 800px) {
-  .logo {
-    margin-left: 1em;
-  }
-  .top-menu {
-    margin-left: 10em;
-  }
-  .btn-left {
-    width: 40%;
-  }
-  .btn-right {
-    width: 50%;
   }
   .slider-info-right {
     margin-left: 1.6em;
