@@ -291,6 +291,9 @@ header {
 .slider {
   background: #faf9f9;
 }
+.slider-info {
+  padding: 2em;
+}
 .slider-info-left {
   float: left;
   width: 39%;
@@ -597,6 +600,9 @@ header {
   }
   .btn-right {
     width: 50%;
+  }
+  .slider-info-right {
+    margin-left: 1.6em;
   }
 }
 @media(max-width: 768px) {
