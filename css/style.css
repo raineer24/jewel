@@ -372,6 +372,10 @@ header {
   text-transform: uppercase;
   font-family: 'Roboto-Bold';
 }
+.why-grid {
+  float: left; 
+  width: 50%;
+}
 .why-grid .whygridh5 {
   font-size: 1.6em;
   font-family: 'Roboto-Bold';
