@@ -607,6 +607,10 @@ header {
   .slider-info-right {
     margin-left: 1.6em;
   }
+  .col-md .whyh2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
 }
 @media(max-width: 768px) {
   .logo {
