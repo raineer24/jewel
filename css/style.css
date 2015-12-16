@@ -611,6 +611,15 @@ header {
     font-size: 3em;
     margin-bottom: 0.5em;
   }
+  .gallery-grids {
+    float: left;
+    width: 25%;
+  }
+  .gallery-grid .gallery-gridh1 {
+    float: left;
+    font-size: 3em;
+    width: 30%;
+  }
 }
 @media(max-width: 768px) {
   .logo {
