@@ -240,7 +240,7 @@ header {
   text-align: center;
   font-family: 'Roboto-Bold';
 }
-.title:after, .slider-info-righth1:after, .gallery-gridh1:after, .title1:after {
+.title:after, .slider-info-righth1:after, .gallery-gridh1:after, .gallery-gridh2:after, .title1:after {
   background: url(../images/line.png) no-repeat center top;
   display: block;
   content: "";
@@ -390,14 +390,14 @@ header {
 .gallery-grids img {
   width: 100%;
 }
-.gallery-grid .gallery-gridh1 {
+.gallery-grid .gallery-gridh1, .gallery-gridh2 {
   font-size: 5em;
   text-transform: uppercase;
   font-family: 'Roboto-Bold';
   width: 64%;
   margin: 1em 0 0 0.3em;
 }
-.gallery-grid .gallery-gridh1:after {
+.gallery-grid .gallery-gridh1:after, .gallery-gridh2:after {
   background-position: left top;
   display: block;
   content: "";
@@ -409,6 +409,7 @@ header {
 }
 .why-para .parag {
   padding-left: 0;
+  margin-top: 2em;
 }
 .parag p {
   line-height: 1.8em;
@@ -615,10 +616,18 @@ header {
     float: left;
     width: 25%;
   }
-  .gallery-grid .gallery-gridh1 {
+  .gallery-grid {
     float: left;
+    padding: 0;
+    
+  }
+  .gallery-grid .gallery-gridh1 {
     font-size: 3em;
     width: 30%;
+  }
+  .gallery-gridh2 {
+    font-size: 3em;
+    width: 48.1%;
   }
 }
 @media(max-width: 768px) {
