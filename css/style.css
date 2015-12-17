@@ -619,6 +619,7 @@ header {
   .gallery-grid {
     float: left;
     padding: 0;
+    width: 50%;
     
   }
   .gallery-grid .gallery-gridh1 {
