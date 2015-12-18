@@ -630,6 +630,18 @@ header {
     font-size: 3em;
     width: 48.1%;
   }
+  .work-title {
+    text-align: center;
+  }
+  .work-title ul li:nth-child(1) {
+    width: 8%;
+  }
+  .work-title ul li:nth-child(2) {
+    margin-top: 1%;
+  }
+  .title-img {
+    right: 64%;
+  }
 }
 @media(max-width: 768px) {
   .logo {
