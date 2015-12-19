@@ -642,6 +642,12 @@ header {
   .title-img {
     right: 64%;
   }
+  .footer .footers {
+    float: left;
+  }
+  .ftr-area {
+    float: left;
+  }
 }
 @media(max-width: 768px) {
   .logo {
@@ -674,6 +680,7 @@ header {
   .header-right {
     display: none;
   }
+  
 }
 
 @media (max-width: 640px) {
