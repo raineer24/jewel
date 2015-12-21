@@ -690,6 +690,15 @@ header {
   .banner-info .banner-h1 {
     font-size: 3em;
   }
+  .slider-info-left {
+    width: 35%;
+  }
+  .slider-info-right {
+    width: 60%;
+  }
+  .slider-info-right p {
+    font-size: 14px;
+  }
 }
 @media (max-width: 480px) {
 
