@@ -394,8 +394,8 @@ header {
   font-size: 5em;
   text-transform: uppercase;
   font-family: 'Roboto-Bold';
-  width: 64%;
-  margin: 1em 0 0 0.3em;
+  
+  margin: 1em 1em 0 0.3em;
 }
 .gallery-grid .gallery-gridh1:after, .gallery-gridh2:after {
   background-position: left top;
