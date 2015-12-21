@@ -702,6 +702,12 @@ header {
   .slider-info-right p {
     font-size: 14px;
   }
+  .ftr-area {
+    float: none;
+  }
+  .col-md-3.ftr-right {
+    text-align: center;
+  }
 }
 @media (max-width: 480px) {
 
