@@ -675,7 +675,7 @@ header {
   }
   .res {
     position: absolute;
-    right: -40%;
+    right: -37%;
   }
   .header-right {
     display: none;
@@ -685,7 +685,7 @@ header {
 
 @media (max-width: 640px) {
   .res {
-    right: -48%;
+    right: -45%;
   }
   .banner-info .banner-h1 {
     font-size: 3em;
