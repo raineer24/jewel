@@ -395,7 +395,7 @@ header {
   text-transform: uppercase;
   font-family: 'Roboto-Bold';
   
-  margin: 1em 1em 0 0.3em;
+  margin: 0.5em 1em 0 0.3em;
 }
 .gallery-grid .gallery-gridh1:after, .gallery-gridh2:after {
   background-position: left top;
@@ -628,7 +628,7 @@ header {
   }
   .gallery-gridh2 {
     font-size: 3em;
-    width: 48.1%;
+    
   }
   .work-title {
     text-align: center;
