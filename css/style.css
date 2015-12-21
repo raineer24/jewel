@@ -365,6 +365,9 @@ header {
 .why {
   padding: 5em 0 0;
 }
+.why-section {
+  float: left;
+}
 /* WHY? */
 .col-md .whyh2 {
   font-size: 3.4em;
