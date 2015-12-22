@@ -501,13 +501,11 @@ header {
   padding-left: 0;
 }
 .ftr-right {
-  text-align: right;
+  text-align: center;
+  float: right;
 }
 .ftr-right p span {
   display: block;
-}
-.social {
-  padding: 0 0 6em ;
 }
 .social li {
   display: inline-block;
@@ -706,7 +704,8 @@ header {
     float: none;
   }
   .col-md-3.ftr-right {
-    text-align: center;
+    margin-top: 10em;
+    float: none;
   }
 }
 @media (max-width: 480px) {
