@@ -705,7 +705,6 @@ header {
   }
   .col-md-3.ftr-right {
     margin-top: 10em;
-    float: none;
   }
 }
 @media (max-width: 480px) {
