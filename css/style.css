@@ -686,7 +686,11 @@ header {
 
 @media (max-width: 640px) {
   .res {
-    right: -45%;
+    left: 82%;
+    width: 13%;
+  }
+  .res li {
+    width: 56%;
   }
   .banner-info .banner-h1 {
     font-size: 3em;
