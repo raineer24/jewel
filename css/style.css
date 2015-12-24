@@ -712,5 +712,8 @@ header {
   }
 }
 @media (max-width: 480px) {
-
+  .res {
+    left: 73%;
+    width: 20%;
+  }
 }
