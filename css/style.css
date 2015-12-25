@@ -613,6 +613,8 @@ header {
   .col-md .whyh2 {
     font-size: 3em;
     margin-bottom: 0.5em;
+    text-align: center;
+    width: 100%;
   }
   .gallery-grids {
     float: left;
