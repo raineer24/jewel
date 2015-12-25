@@ -782,12 +782,18 @@ header {
     right: 10%;
   }
 }
-@media (max-width: 480px) { 
+@media (max-width: 320px) { 
   .top-menu {
     margin: 0;
   }
   .res {
     left: 64%;
     width: 25%;
+  }
+  .btn-left {
+    font-size: 0.8em;
+  }
+  .btn-right {
+    font-size: 0.8em;
   }
 }
