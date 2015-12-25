@@ -760,4 +760,10 @@ header {
   .gallery-grid .gallery-gridh1, .gallery-gridh2 {
     font-size: 1.7em;
   }
+  .why-grid p {
+    font-size: 12px;
+  }
+  .why-grid .whygridh5 {
+    font-size: 1.3em;
+  }
 }
