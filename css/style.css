@@ -735,7 +735,10 @@ header {
     width: 40%;
   }
   .slider-info {
-    padding: 2em 0 2em;
+    padding: 1em 0 2em;
+  }
+  .slider-info-left {
+    margin-top: 1.6em;
   }
   .slider-info-right {
     width: 55%;
