@@ -746,4 +746,7 @@ header {
   .slider-info-right p {
     font-size: 12px;
   }
+  .callbacks_nav {
+    top: 35%;
+  }
 }
