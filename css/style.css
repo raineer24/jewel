@@ -769,4 +769,10 @@ header {
   .why-grid .whygridh5 {
     font-size: 1.3em;
   }
+  .title-img {
+    right: 75%;
+  }
+  #toTop {
+    right: 10%;
+  }
 }
