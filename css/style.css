@@ -716,6 +716,9 @@ header {
   .why-para .parag {
     padding: 0;
   }
+  .gallery-grid .gallery-gridh1 {
+    font-size: 2.7em;
+  }
 }
 @media (max-width: 480px) {
   .res {
