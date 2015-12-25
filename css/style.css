@@ -720,7 +720,11 @@ header {
     font-size: 2.7em;
   }
   .gallery-gridh2 {
-    font-style: 2.7em;
+    font-size: 2.7em;
+  }
+  .title-img {
+    right: 68%;
+    top: 0%
   }
 }
 @media (max-width: 480px) {
