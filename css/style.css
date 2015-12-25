@@ -713,6 +713,9 @@ header {
   .col-md-3.ftr-right {
     margin-top: 10em;
   }
+  .why-para .parag {
+    padding: 0;
+  }
 }
 @media (max-width: 480px) {
   .res {
