@@ -770,7 +770,8 @@ header {
     font-size: 1.3em;
   }
   .title-img {
-    right: 75%;
+    right: 76%;
+    top: 0%
   }
   #toTop {
     right: 10%;
