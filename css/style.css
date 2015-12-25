@@ -226,6 +226,7 @@ header {
   padding: 3em 0 0;
   font-size: 1.3em;
   color: #b7b7b7;
+  text-align: center;
 }
 .work {
   padding: 5em 0;
@@ -721,7 +722,7 @@ header {
     margin: 3em 0 0;
   }
   .banner-info {
-    margin-top: 16em;
+    margin-top: 17em;
     width: 100%;
   }
   .banner-info .banner-h1 {
@@ -732,5 +733,17 @@ header {
   }
   .btn-right {
     width: 40%;
+  }
+  .slider-info {
+    padding: 2em 0 2em;
+  }
+  .slider-info-right {
+    width: 55%;
+  }
+  .slider-info-righth1 {
+    font-size: 1.5em;
+  }
+  .slider-info-right p {
+    font-size: 12px;
   }
 }
