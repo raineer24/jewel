@@ -809,6 +809,9 @@ header {
   .contenth1 {
     font-size: 2.6em;
   }
+  .gallery-grid .gallery-gridh1 {
+    width: 66%;
+  }
   .gallery-grid .gallery-gridh1, .gallery-gridh2 {
     font-size: 1.3em;
   }
