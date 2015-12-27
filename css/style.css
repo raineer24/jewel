@@ -806,4 +806,16 @@ header {
   .btn-right {
     font-size: 0.8em;
   }
+  .contenth1 {
+    font-size: 2.6em;
+  }
+  .gallery-grid .gallery-gridh1, .gallery-gridh2 {
+    font-size: 1.3em;
+  }
+  .slider-info-righth1 {
+    font-size: 1em;
+  }
+  .slider-info-right p {
+    font-size: 10px;
+  }
 }
