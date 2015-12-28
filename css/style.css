@@ -791,6 +791,14 @@ header {
   #toTop {
     right: 10%;
   }
+  .footer .footers {
+    margin-left: 5em;
+    text-align: center;
+  }
+  .ftr-right {
+    float: left;
+    margin-left: 2.3em;
+  }
 }
 @media (max-width: 320px) { 
   .top-menu {
