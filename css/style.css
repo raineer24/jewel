@@ -792,12 +792,13 @@ header {
     right: 10%;
   }
   .footer .footers {
-    margin-left: 4.2em;
+    margin-left: 4.1em;
     text-align: center;
   }
   .ftr-right {
     float: left;
     margin-left: 1.9em;
+    width: 70%;
   }
 }
 @media (max-width: 320px) { 
