@@ -830,4 +830,13 @@ header {
   .slider-info-right p {
     font-size: 10px;
   }
+  .footer .footers {
+    margin-left: 4em;
+    text-align: center;
+  }
+  .ftr-right {
+    float: left;
+    margin-left: 1.8em;
+    width: 70%;
+  }
 }
