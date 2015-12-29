@@ -858,4 +858,7 @@ header {
   .work-title .work-titleh4 {
     font-size: 1em;
   }
+  .div-margins {
+    margin-top: 1.8em;
+  }
 }
