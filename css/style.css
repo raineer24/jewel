@@ -804,6 +804,9 @@ header {
     margin-left: 1.9em;
     width: 70%;
   }
+  .work-title .work-titleh4 {
+    font-size: 1.3em;
+  }
 }
 @media (max-width: 320px) { 
   .top-menu {
