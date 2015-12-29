@@ -809,7 +809,7 @@ header {
   }
   .title-img {
     top: -4%;
-    right: 70%;
+    right: 66%;
   }
 }
 @media (max-width: 320px) { 
@@ -853,6 +853,7 @@ header {
   }
   .title-img {
     top: -6%;
+    right: 73%;
   }
   .work-title .work-titleh4 {
     font-size: 1em;
